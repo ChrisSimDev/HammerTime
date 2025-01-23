@@ -1,0 +1,13 @@
+C:\Dev\WithJake\HammerTime\HammerTime\bin\Debug\net8.0\HammerTime.deps.json
+C:\Dev\WithJake\HammerTime\HammerTime\bin\Debug\net8.0\HammerTime.dll
+C:\Dev\WithJake\HammerTime\HammerTime\bin\Debug\net8.0\HammerTime.pdb
+C:\Dev\WithJake\HammerTime\HammerTime\obj\Debug\net8.0\HammerTime.csproj.AssemblyReference.cache
+C:\Dev\WithJake\HammerTime\HammerTime\obj\Debug\net8.0\HammerTime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\WithJake\HammerTime\HammerTime\obj\Debug\net8.0\HammerTime.AssemblyInfoInputs.cache
+C:\Dev\WithJake\HammerTime\HammerTime\obj\Debug\net8.0\HammerTime.AssemblyInfo.cs
+C:\Dev\WithJake\HammerTime\HammerTime\obj\Debug\net8.0\HammerTime.csproj.CoreCompileInputs.cache
+C:\Dev\WithJake\HammerTime\HammerTime\obj\Debug\net8.0\HammerTime.sourcelink.json
+C:\Dev\WithJake\HammerTime\HammerTime\obj\Debug\net8.0\HammerTime.dll
+C:\Dev\WithJake\HammerTime\HammerTime\obj\Debug\net8.0\refint\HammerTime.dll
+C:\Dev\WithJake\HammerTime\HammerTime\obj\Debug\net8.0\HammerTime.pdb
+C:\Dev\WithJake\HammerTime\HammerTime\obj\Debug\net8.0\ref\HammerTime.dll
