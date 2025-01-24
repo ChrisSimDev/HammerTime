@@ -25,7 +25,7 @@ namespace HammerTime.services
 
         }
 
-        private (int, int) CalculateHits(int numAttacks, int ballisticWeaponSkill, bool torrent = false, int combatModifier = 0, bool rerollOnes = false, bool overwatchStatus = false)
+        internal (int, int) CalculateHits(int numAttacks, int ballisticWeaponSkill, bool torrent = false, int combatModifier = 0, bool rerollOnes = false, bool overwatchStatus = false)
         {
             if (torrent)
             {
@@ -76,8 +76,17 @@ namespace HammerTime.services
             }
             return (hits, crits);
         }
-        public static (BaseSoldierClass, int) ApplyWounds(BaseSoldierClass defenderSoldier, int hitCount, int critCount)
+
+        internal static (BaseSoldierClass, int newHitCount, int critCount) ApplyWounds(BaseSoldierClass defenderSoldier, WeaponClass attackerWeapon, int hitCount, int critCount)
         {
+            int woundCount = 0;
+            
+            // Crit Guarantees a wound
+            if (attackerWeapon.weaponAbilities.Contains(WeaponAbilities.LethalHits) &&  critCount > 0)
+            {
+                woundCount = critCount;
+            }
+
             // Calculate wounds
             return (new BaseSoldierClass(), 0);
         }

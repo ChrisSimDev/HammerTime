@@ -4,5 +4,6 @@ namespace HammerTime.Data
     {
         Sword,
         gun,
+        none,
     }
 }
